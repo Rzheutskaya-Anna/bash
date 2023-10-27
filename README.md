@@ -21,21 +21,21 @@ mkdir test2 -                                                      Create direct
 rmdir test 2 -                                                     Delete directory test2   
 cd test1 -                                                         Go back to directory test1  
 rm file2.txt -                                                     Delete file 2   
-mkdir test3 - Create directory test3
-touch file4.txt file5.txt - Add two files to directory test3
-cd .. - Go back to parent directory
-rm -rf test3 - Delete directory test3 
-mkdir test4 - Create directory test4
-mv test1/file1.txt test4 - Move file1.txt from directory test1 to directory test4
-mv test1/file3.txt test4 - Move file3.txt from directory test1 to directory test4
-echo line>file1.txt - Add 3 lines to file1.txt
+mkdir test3 -                                                      Create directory test3  
+touch file4.txt file5.txt -                                        Add two files to directory test3  
+cd .. -                                                            Go back to parent directory  
+rm -rf test3 -                                                     Delete directory test3   
+mkdir test4 -                                                      Create directory test4  
+mv test1/file1.txt test4 -                                         Move file1.txt from directory test1 to directory test4  
+mv test1/file3.txt test4 -                                         Move file3.txt from directory test1 to directory test4  
+echo line>file1.txt -                                              Add 3 lines to file1.txt  
 echo line>>file1.txt
 echo line>>file1.txt
-cat file1.txt - Check content of file1.txt
-echo line>file3.txt - Add 3 lines to file3.txt
+cat file1.txt -                                                    Check content of file1.txt  
+echo line>file3.txt -                                              Add 3 lines to file3.txt  
 echo line>>file3.txt
 echo line>>file3.txt
-cat file1.txt file3.txt - Check contents of file1.txt and file3.txt at once
+cat file1.txt file3.txt -                                          Check contents of file1.txt and file3.txt at once  
 
 ## Task 2
 ##### Editing files, checking and killing proccesses, pinging websites
