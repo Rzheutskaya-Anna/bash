@@ -15,12 +15,12 @@ pwd -                                                              Show current 
 mkdir test1 -                                                      Create a directory test1  
 cd test1 -                                                         Go to directory test1  
 touch file1.txt file2.txt file3.txt -                              Create file 1,2 and 3 inside directory test1  
-ls file1.txt  file2.txt  file3.txt - Check directory test1 content
-cd .. - Go home directory 
-mkdir test2 - Create directory test2 inside home directory
-rmdir test 2 - Delete directory test2 
-cd test1 - Go back to directory test1
-rm file2.txt - Delete file 2 
+ls file1.txt  file2.txt  file3.txt -                               Check directory test1 content  
+cd .. -                                                            Go home directory   
+mkdir test2 -                                                      Create directory test2 inside home directory  
+rmdir test 2 -                                                     Delete directory test2   
+cd test1 -                                                         Go back to directory test1  
+rm file2.txt -                                                     Delete file 2   
 mkdir test3 - Create directory test3
 touch file4.txt file5.txt - Add two files to directory test3
 cd .. - Go back to parent directory
