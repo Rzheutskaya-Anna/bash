@@ -43,8 +43,8 @@ cat file1.txt file3.txt -                                          Check content
 mkdir test3 -                                                      Create directory test3  
 cd test3 -                                                         Open directory test3  
 echo -e "row1\nrow2\nrow3\nrow4" >> file4.txt -                    Add 3 files to test3, each of which should contain 4 lines  
-echo -e "row1\nrow2\nrow3\nrow4" >> file5.txt
-echo -e "row1\nrow2\nrow3\nrow4" >> file6.txt
+echo -e "row1\nrow2\nrow3\nrow4" >> file5.txt  
+echo -e "row1\nrow2\nrow3\nrow4" >> file6.txt  
 grep "row2" file5.txt -                                            Find the line "row2" in file5.txt  
 grep -c "row" file6.txt -                                          Count number of lines containing word "row" in file6.txt  
 find test3 -name "file5.txt" -                                     Find file5.txt in test3 directory  
