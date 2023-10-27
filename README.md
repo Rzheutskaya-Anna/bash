@@ -55,15 +55,15 @@ kill 666 -                                                         Kill process 
 ping artsiomrusau.com -                                            Check the availability of the website artsiomrusau.com using ping  
 ping -n 5 artsiomrusau.com -                                       Send 5 packages to artsiomrusau.com    
 curl https://petstore.swagger.io/v2/pet/findByStatus?status=registered - Using GET and cURL command, get info about registered pets at petstore.swagger.io  
-curl -X POST -H "Content-Type: application/json" -d '{   -         Using POST and cURL command, create a new user at petstore.swagger.io  
-  "id": 2350,
-  "username": "user32655",
-  "firstName": "Anna",
-  "lastName": "John",
-  "email": "anna3264851@gmail.com",
-  "password": "862855858",
-  "phone": "5646756457864"
-}' https://petstore.swagger.io/v2/user
+curl -X POST -H "Content-Type: application/json" -d '{     -         Using POST and cURL command, create a new user at petstore.swagger.io  
+  "id": 2350,  
+  "username": "user32655",  
+  "firstName": "Anna",  
+  "lastName": "John",  
+  "email": "anna3264851@gmail.com",  
+  "password": "862855858",  
+  "phone": "5646756457864"  
+}' https://petstore.swagger.io/v2/user  
 {"code":200,"type":"unknown","message":"2350"}
 
 
