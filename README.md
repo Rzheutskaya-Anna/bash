@@ -40,22 +40,22 @@ cat file1.txt file3.txt -                                          Check content
 ## Task 2
 ##### Editing files, checking and killing proccesses, pinging websites
 
-mkdir test3 - Create directory test3
-cd test3 - Open directory test3
-echo -e "row1\nrow2\nrow3\nrow4" >> file4.txt - Add 3 files to test3, each of which should contain 4 lines
+mkdir test3 -                                                      Create directory test3  
+cd test3 -                                                         Open directory test3  
+echo -e "row1\nrow2\nrow3\nrow4" >> file4.txt -                    Add 3 files to test3, each of which should contain 4 lines  
 echo -e "row1\nrow2\nrow3\nrow4" >> file5.txt
 echo -e "row1\nrow2\nrow3\nrow4" >> file6.txt
-grep "row2" file5.txt - Find the line "row2" in file5.txt
-grep -c "row" file6.txt - Count number of lines containing word "row" in file6.txt
-find test3 -name "file5.txt" - Find file5.txt in test3 directory
-echo "test" >> file4.txt - Add the word "test" to file4.txt so that the content is preserved
-sed -i 's/test/fail/g' file4.txt - Change the word "test" in file4.txt to "fail"
-ps aux - View all processes in the system
-kill 666 - Kill process 666 in console
-ping artsiomrusau.com - check the availability of the website artsiomrusau.com using ping
-ping -n 5 artsiomrusau.com - Send 5 packages to artsiomrusau.com  
-curl https://petstore.swagger.io/v2/pet/findByStatus?status=registered - Using GET and cURL command, get info about registered pets at petstore.swagger.io
-curl -X POST -H "Content-Type: application/json" -d '{   - Using POST and cURL command, create a new user at petstore.swagger.io
+grep "row2" file5.txt -                                            Find the line "row2" in file5.txt  
+grep -c "row" file6.txt -                                          Count number of lines containing word "row" in file6.txt  
+find test3 -name "file5.txt" -                                     Find file5.txt in test3 directory  
+echo "test" >> file4.txt -                                         Add the word "test" to file4.txt so that the content is preserved  
+sed -i 's/test/fail/g' file4.txt -                                 Change the word "test" in file4.txt to "fail"  
+ps aux -                                                           View all processes in the system  
+kill 666 -                                                         Kill process 666 in console  
+ping artsiomrusau.com -                                            Check the availability of the website artsiomrusau.com using ping  
+ping -n 5 artsiomrusau.com -                                       Send 5 packages to artsiomrusau.com    
+curl https://petstore.swagger.io/v2/pet/findByStatus?status=registered - Using GET and cURL command, get info about registered pets at petstore.swagger.io  
+curl -X POST -H "Content-Type: application/json" -d '{   -         Using POST and cURL command, create a new user at petstore.swagger.io  
   "id": 2350,
   "username": "user32655",
   "firstName": "Anna",
