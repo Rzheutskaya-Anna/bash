@@ -11,10 +11,10 @@ I am happy to share some bash commands that I used to do tasks during my Quality
 ## Task 1
 
 ##### Working with files and directories
-pwd - Show current directory path
-mkdir test1 - Create a directory test1
-cd test1 - Go to directory test1
-touch file1.txt file2.txt file3.txt - Create file 1,2 and 3 inside directory test1
+pwd -                                                              Show current directory path
+mkdir test1 -                                                      Create a directory test1
+cd test1 -                                                         Go to directory test1
+touch file1.txt file2.txt file3.txt -                              Create file 1,2 and 3 inside directory test1
 ls file1.txt  file2.txt  file3.txt - Check directory test1 content
 cd .. - Go home directory 
 mkdir test2 - Create directory test2 inside home directory
